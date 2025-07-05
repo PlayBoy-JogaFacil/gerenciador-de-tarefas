@@ -1,0 +1,50 @@
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #fff;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+    ul {
+      list-style-type: none;
+      padding: 5px;
+      margin: 20px 0;
+      max-width: 600px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    #button {
+      margin-top: 10px;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: flex;
+    }
+    #button:hover {
+      background-color: #45a049;
+    }
+    ul { margin-top: 20px; }
+    .item-nome { font-weight: bold; }
+    .item-desc { margin-left: 10px; color: #555; }
+
+    input[name="title"], input[name="description"] {
+      margin-bottom: 8px;
+      padding: 8px;
+      width: 95%;
+      box-sizing: border-box;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      display: block;
+    }
