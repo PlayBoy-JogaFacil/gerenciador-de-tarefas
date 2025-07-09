@@ -21,7 +21,7 @@ form.addEventListener("submit", async (e) => {
         form.reset();
         addTaskToUl(task);
     } catch (err) {
-        alert("erro ao salvar a tarefa: " + err.message);
+        alert           ("erro ao salvar a tarefa: " + err.message);
     }
 });
 
@@ -37,7 +37,6 @@ function addTaskToUl(task) {
   `;
     taskList.appendChild(li);
 }
-
 async function loadTasks() {
     try {
         const res = await fetch(apiUrl);
